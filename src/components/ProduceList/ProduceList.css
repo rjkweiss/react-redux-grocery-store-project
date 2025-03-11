@@ -19,16 +19,20 @@
     margin-bottom: 0;
 }
 
+
 .like-button,
 .plus-button {
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    color: red;
+    border-color: black;
+    color: black;
     background-color: white;
+    margin: 0px 2.5px;
 }
 
-button.selected {
+.like-button.selected {
     color: white;
     background-color: red;
+    border: none;
 }
